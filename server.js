@@ -27,7 +27,7 @@ function addPickles(string) {
 function addMustard(string) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve(string + ' AND PICKLES!!!');
+      resolve(string + ' AND MUSTARD!!!');
     }, 400);
   });
 }
