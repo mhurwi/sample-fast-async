@@ -41,4 +41,4 @@ async function createBurger(string) {
 }
 
 console.log('making burger...');
-createString('plain burger');
+createBurger('plain burger');
