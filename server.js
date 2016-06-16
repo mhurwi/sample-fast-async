@@ -32,7 +32,7 @@ function addMustard(string) {
   });
 }
 
-async function createString(string) {
+async function createBurger(string) {
   const start = await startBurger(string);
   const withCheese = await addCheese(start);
   const withPickles = await addPickles(withCheese);
